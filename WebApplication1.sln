@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{A0DF2B01-8A1B-4235-9052-3001F9D74F65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "WebApplication1\Api.csproj", "{A0DF2B01-8A1B-4235-9052-3001F9D74F65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{995D30DE-40D0-4E94-A256-97BC67C33090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Test", "Api.Test\Api.Test.csproj", "{6F1CACF4-43CA-47F8-B7B6-16E0D51D8F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{995D30DE-40D0-4E94-A256-97BC67C33090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995D30DE-40D0-4E94-A256-97BC67C33090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995D30DE-40D0-4E94-A256-97BC67C33090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1CACF4-43CA-47F8-B7B6-16E0D51D8F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1CACF4-43CA-47F8-B7B6-16E0D51D8F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1CACF4-43CA-47F8-B7B6-16E0D51D8F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1CACF4-43CA-47F8-B7B6-16E0D51D8F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
