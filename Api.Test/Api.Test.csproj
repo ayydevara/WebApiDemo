@@ -57,6 +57,10 @@
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Specification.Tests.1.0.0-rc2-final\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.Specification.Tests.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Moq, Version=4.5.9.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.5.9-alpha\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
